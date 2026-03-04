@@ -10,6 +10,7 @@ import { PaginatedAmendmentsSchema, SingleAmendmentSchema } from '$lib/schemas/a
 import type {
   ListAmendmentsParams,
   CreateAmendmentRequest,
+  SingleResponse,
   ApiAmendment,
 } from '$lib/types/api.types';
 
@@ -34,7 +35,7 @@ export function amendmentsQuery(params: ListAmendmentsParams = {}) {
 // After success: invalidateQueries({ queryKey: ['amendments'] })
 // Never use optimistic updates for amendment mutations.
 export const createAmendmentMutationFn =
-  createMutationFn<CreateAmendmentRequest, ApiAmendment>(
+  createMutationFn<CreateAmendmentRequest, SingleResponse<ApiAmendment>>(
     '/api/internal/amendments',
     'POST',
     SingleAmendmentSchema
