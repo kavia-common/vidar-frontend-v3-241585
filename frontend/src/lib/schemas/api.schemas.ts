@@ -89,9 +89,10 @@ export const ApiSystemSchema = z.object({
 export const ApiEvaluationEventSchema = z.object({
   event_id: z.string(),
   target_system_id: z.string(),
+  target_system_name: z.string(),
   event_type: z.string(),
   outcome: EvaluationOutcomeSchema,
-  triggered_by: z.string(),
+  triggered_by: z.string().nullable(),
   triggered_at: z.string(),
   rules_snapshot_hash: z.string(),
   critical_count: z.number(),
