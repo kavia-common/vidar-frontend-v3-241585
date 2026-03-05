@@ -560,3 +560,117 @@
 2026-03-05 09:39:50,893 - Knowledge - INFO - ⚡ Total Redis path: 0.91s (vs ~300s from disk)
 2026-03-05 09:39:51,052 - Knowledge - INFO - Saving knowledge to Redis...
 2026-03-05 09:39:51,291 - Knowledge - INFO - Knowledge saved to Redis successfully
+2026-03-05 09:51:13,243 - Knowledge - INFO - Created shared MongoDB connection pool
+2026-03-05 09:51:13,660 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2026-03-05 09:51:13,896 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2026-03-05 09:51:14,078 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-03-05 09:51:15,547 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2026-03-05 09:51:15,772 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2026-03-05 09:51:15,986 - Knowledge - INFO - load persisted knowledge: begin
+2026-03-05 09:51:16,678 - Knowledge - INFO - Persisted knowledge files in /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/.knowledge have been renamed to use .json
+2026-03-05 09:51:16,886 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:17,118 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:17,344 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/schemas/api.schemas.ts
+2026-03-05 09:51:17,558 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:17,727 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:17,922 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/vite.config.ts
+2026-03-05 09:51:18,122 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:18,302 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:18,534 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/rules.ts
+2026-03-05 09:51:18,728 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:18,926 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:19,134 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/queries/estate.query.ts
+2026-03-05 09:51:19,393 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:19,628 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:19,859 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/evaluations.ts
+2026-03-05 09:51:20,046 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:20,219 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:20,436 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/CONTEXT.md
+2026-03-05 09:51:20,629 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:20,836 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:21,057 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/tsconfig.json
+2026-03-05 09:51:21,271 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:21,548 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:21,771 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/types/api.types.ts
+2026-03-05 09:51:21,957 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:22,212 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:22,440 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/app.html
+2026-03-05 09:51:22,699 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:22,881 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:23,086 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/UI_REFERENCE.md
+2026-03-05 09:51:23,343 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:23,523 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:23,739 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/utils/format.ts
+2026-03-05 09:51:23,932 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:24,092 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:24,280 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/EXAMPLE_PATTERNS.md
+2026-03-05 09:51:24,508 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:24,700 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:24,905 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/queries/systems.query.ts
+2026-03-05 09:51:25,101 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:25,305 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:25,485 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/AI_GUARDRAILS.md
+2026-03-05 09:51:25,716 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:25,919 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:26,107 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/queries/amendments.query.ts
+2026-03-05 09:51:26,296 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:26,463 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:26,645 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/utils/constants.ts
+2026-03-05 09:51:26,837 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:27,034 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:27,213 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/app.d.ts
+2026-03-05 09:51:27,439 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:27,654 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:27,805 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/svelte.config.js
+2026-03-05 09:51:27,988 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:28,177 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:28,358 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/amendments.ts
+2026-03-05 09:51:28,606 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:28,818 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:28,985 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/API_CONTRACT.md
+2026-03-05 09:51:29,186 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:29,390 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:29,578 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/systems.ts
+2026-03-05 09:51:29,815 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:29,998 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:30,209 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/routes/+layout.ts
+2026-03-05 09:51:30,402 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:30,619 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:30,798 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/README.md
+2026-03-05 09:51:30,984 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:31,155 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:31,323 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/queries/evaluations.query.ts
+2026-03-05 09:51:31,518 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:31,744 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:31,973 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/stores/auth.store.ts
+2026-03-05 09:51:32,203 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:32,456 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:32,674 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/estate.ts
+2026-03-05 09:51:32,891 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:33,067 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:33,275 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/playwright.config.ts
+2026-03-05 09:51:33,475 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:33,655 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:33,833 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/package.json
+2026-03-05 09:51:34,024 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:34,214 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:34,406 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/fetcher.ts
+2026-03-05 09:51:34,635 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:51:34,813 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f6d7fce1b50>
+2026-03-05 09:51:34,998 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/vitest.config.ts
+2026-03-05 09:51:35,215 - Knowledge - INFO - Loaded 30 files from persisted knowledge
+2026-03-05 09:51:35,406 - Knowledge - INFO - load persisted knowledge: end
+2026-03-05 09:51:35,599 - Knowledge - INFO - Redis support added with prefix knowledge:b68270o:
+2026-03-05 09:51:35,877 - Knowledge - INFO - Starting knowledge initialization for ID: fFrD2f-b68270o
+2026-03-05 09:51:36,062 - Knowledge - INFO - 🔍 Checking Redis for build_id: b68270o
+2026-03-05 09:51:36,235 - Knowledge - INFO - 🔍 Full session ID: fFrD2f-b68270o
+2026-03-05 09:51:36,454 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b68270o:
+2026-03-05 09:51:36,663 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2026-03-05 09:51:36,835 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2026-03-05 09:51:37,010 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b68270o
+2026-03-05 09:51:37,270 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2026-03-05 09:51:37,501 - Knowledge - INFO - ✅ Successfully loaded from Redis: 30 files
+2026-03-05 09:51:37,674 - Knowledge - INFO - ✅ Redis load complete: 30 files in 1.01s
+2026-03-05 09:51:37,868 - Knowledge - INFO - ⚡ Total Redis path: 1.01s (vs ~300s from disk)
+2026-03-05 09:51:38,100 - Knowledge - INFO - Saving knowledge to Redis...
+2026-03-05 09:51:38,374 - Knowledge - INFO - Knowledge saved to Redis successfully
