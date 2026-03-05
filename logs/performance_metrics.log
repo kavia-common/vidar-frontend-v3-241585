@@ -262,3 +262,301 @@
 2026-03-04 05:52:33,835 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 268, Duration: 0ms
 2026-03-04 05:52:34,091 - Knowledge - INFO - Saving knowledge to Redis...
 2026-03-04 05:52:34,322 - Knowledge - INFO - Knowledge saved to Redis successfully
+2026-03-04 17:07:16,152 - Knowledge - INFO - Created shared MongoDB connection pool
+2026-03-04 17:07:16,475 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2026-03-04 17:07:16,646 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2026-03-04 17:07:16,845 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-03-05 09:38:40,232 - Knowledge - INFO - Created shared MongoDB connection pool
+2026-03-05 09:38:40,535 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2026-03-05 09:38:40,736 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2026-03-05 09:38:40,919 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=10, max_concurrent_llm_calls=50
+2026-03-05 09:38:41,978 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2026-03-05 09:38:42,196 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2026-03-05 09:38:42,420 - Knowledge - INFO - load persisted knowledge: begin
+2026-03-05 09:38:42,892 - Knowledge - INFO - Persisted knowledge files in /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/.knowledge have been renamed to use .json
+2026-03-05 09:38:43,080 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:43,254 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:43,522 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:43,672 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:43,833 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/schemas/api.schemas.ts
+2026-03-05 09:38:44,084 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 84ms
+2026-03-05 09:38:45,133 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/schemas/api.schemas.ts, Duration: 871ms
+2026-03-05 09:38:45,286 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/schemas/api.schemas.ts
+2026-03-05 09:38:45,465 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/schemas/api.schemas.ts
+2026-03-05 09:38:45,630 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:45,782 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:46,013 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:46,191 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:46,391 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/vite.config.ts
+2026-03-05 09:38:46,659 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-03-05 09:38:47,100 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/vite.config.ts, Duration: 259ms
+2026-03-05 09:38:47,292 - Knowledge - INFO - persist search terms embedding for frontend/vite.config.ts
+2026-03-05 09:38:47,466 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/vite.config.ts
+2026-03-05 09:38:47,631 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:47,790 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:48,071 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:48,283 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:48,461 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/rules.ts
+2026-03-05 09:38:48,738 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2026-03-05 09:38:49,189 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/api/endpoints/rules.ts, Duration: 237ms
+2026-03-05 09:38:49,373 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/api/endpoints/rules.ts
+2026-03-05 09:38:49,558 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/rules.ts
+2026-03-05 09:38:49,724 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:49,876 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:50,133 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:50,306 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:50,462 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/queries/estate.query.ts
+2026-03-05 09:38:50,778 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 102ms
+2026-03-05 09:38:51,247 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/queries/estate.query.ts, Duration: 291ms
+2026-03-05 09:38:51,424 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/queries/estate.query.ts
+2026-03-05 09:38:51,620 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/queries/estate.query.ts
+2026-03-05 09:38:51,843 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:52,040 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:52,331 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:52,493 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:52,646 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/evaluations.ts
+2026-03-05 09:38:52,935 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 120ms
+2026-03-05 09:38:53,376 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/api/endpoints/evaluations.ts, Duration: 281ms
+2026-03-05 09:38:53,617 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/api/endpoints/evaluations.ts
+2026-03-05 09:38:53,783 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/evaluations.ts
+2026-03-05 09:38:53,947 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:54,227 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:54,470 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:54,648 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:54,834 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/CONTEXT.md
+2026-03-05 09:38:55,096 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 105ms
+2026-03-05 09:38:55,533 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: CONTEXT.md, Duration: 277ms
+2026-03-05 09:38:55,694 - Knowledge - INFO - persist search terms embedding for CONTEXT.md
+2026-03-05 09:38:55,849 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/CONTEXT.md
+2026-03-05 09:38:56,021 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:56,182 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:56,445 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:56,633 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:56,788 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/tsconfig.json
+2026-03-05 09:38:57,034 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2026-03-05 09:38:57,525 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/tsconfig.json, Duration: 268ms
+2026-03-05 09:38:57,741 - Knowledge - INFO - persist search terms embedding for frontend/tsconfig.json
+2026-03-05 09:38:57,928 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/tsconfig.json
+2026-03-05 09:38:58,116 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:58,330 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:58,568 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:38:58,715 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:38:58,881 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/types/api.types.ts
+2026-03-05 09:38:59,159 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 84ms
+2026-03-05 09:38:59,575 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/types/api.types.ts, Duration: 251ms
+2026-03-05 09:38:59,748 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/types/api.types.ts
+2026-03-05 09:38:59,954 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/types/api.types.ts
+2026-03-05 09:39:00,147 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:00,345 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:00,576 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:00,765 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:00,915 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/app.html
+2026-03-05 09:39:01,223 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 151ms
+2026-03-05 09:39:01,821 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/app.html, Duration: 418ms
+2026-03-05 09:39:01,985 - Knowledge - INFO - persist search terms embedding for frontend/src/app.html
+2026-03-05 09:39:02,143 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/app.html
+2026-03-05 09:39:02,318 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:02,472 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:02,762 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:02,966 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:03,179 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/UI_REFERENCE.md
+2026-03-05 09:39:03,491 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 100ms
+2026-03-05 09:39:03,937 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/UI_REFERENCE.md, Duration: 273ms
+2026-03-05 09:39:04,102 - Knowledge - INFO - persist search terms embedding for frontend/UI_REFERENCE.md
+2026-03-05 09:39:04,322 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/UI_REFERENCE.md
+2026-03-05 09:39:04,489 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:04,635 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:04,853 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:05,011 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:05,198 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/utils/format.ts
+2026-03-05 09:39:05,467 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2026-03-05 09:39:05,901 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/utils/format.ts, Duration: 263ms
+2026-03-05 09:39:06,076 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/utils/format.ts
+2026-03-05 09:39:06,243 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/utils/format.ts
+2026-03-05 09:39:06,470 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:06,654 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:06,908 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:07,075 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:07,263 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/EXAMPLE_PATTERNS.md
+2026-03-05 09:39:07,551 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 95ms
+2026-03-05 09:39:08,026 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/EXAMPLE_PATTERNS.md, Duration: 261ms
+2026-03-05 09:39:08,183 - Knowledge - INFO - persist search terms embedding for frontend/EXAMPLE_PATTERNS.md
+2026-03-05 09:39:08,363 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/EXAMPLE_PATTERNS.md
+2026-03-05 09:39:08,559 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:08,753 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:08,993 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:09,158 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:09,399 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/queries/systems.query.ts
+2026-03-05 09:39:09,681 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2026-03-05 09:39:10,115 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/queries/systems.query.ts, Duration: 268ms
+2026-03-05 09:39:10,290 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/queries/systems.query.ts
+2026-03-05 09:39:10,475 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/queries/systems.query.ts
+2026-03-05 09:39:10,642 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:10,834 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:11,091 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:11,280 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:11,441 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/AI_GUARDRAILS.md
+2026-03-05 09:39:11,726 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2026-03-05 09:39:12,138 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: AI_GUARDRAILS.md, Duration: 251ms
+2026-03-05 09:39:12,309 - Knowledge - INFO - persist search terms embedding for AI_GUARDRAILS.md
+2026-03-05 09:39:12,515 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/AI_GUARDRAILS.md
+2026-03-05 09:39:12,700 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:12,866 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:13,147 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:13,345 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:13,514 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/queries/amendments.query.ts
+2026-03-05 09:39:13,757 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2026-03-05 09:39:14,267 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/queries/amendments.query.ts, Duration: 316ms
+2026-03-05 09:39:14,463 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/queries/amendments.query.ts
+2026-03-05 09:39:14,645 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/queries/amendments.query.ts
+2026-03-05 09:39:14,811 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:14,967 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:15,292 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:15,438 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:15,601 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/utils/constants.ts
+2026-03-05 09:39:15,868 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 100ms
+2026-03-05 09:39:16,291 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/utils/constants.ts, Duration: 261ms
+2026-03-05 09:39:16,461 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/utils/constants.ts
+2026-03-05 09:39:16,641 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/utils/constants.ts
+2026-03-05 09:39:16,805 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:16,998 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:17,278 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:17,424 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:17,628 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/app.d.ts
+2026-03-05 09:39:17,896 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-03-05 09:39:18,332 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/app.d.ts, Duration: 248ms
+2026-03-05 09:39:18,475 - Knowledge - INFO - persist search terms embedding for frontend/src/app.d.ts
+2026-03-05 09:39:18,645 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/app.d.ts
+2026-03-05 09:39:18,798 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:18,950 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:19,222 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:19,373 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:19,565 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/svelte.config.js
+2026-03-05 09:39:19,866 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 96ms
+2026-03-05 09:39:20,304 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/svelte.config.js, Duration: 281ms
+2026-03-05 09:39:20,507 - Knowledge - INFO - persist search terms embedding for frontend/svelte.config.js
+2026-03-05 09:39:20,684 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/svelte.config.js
+2026-03-05 09:39:20,899 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:21,102 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:21,358 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:21,530 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:21,699 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/amendments.ts
+2026-03-05 09:39:21,988 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 100ms
+2026-03-05 09:39:22,376 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/api/endpoints/amendments.ts, Duration: 234ms
+2026-03-05 09:39:22,541 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/api/endpoints/amendments.ts
+2026-03-05 09:39:22,694 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/amendments.ts
+2026-03-05 09:39:22,899 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:23,086 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:23,354 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:23,511 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:23,698 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/API_CONTRACT.md
+2026-03-05 09:39:24,026 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 115ms
+2026-03-05 09:39:24,466 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/API_CONTRACT.md, Duration: 268ms
+2026-03-05 09:39:24,616 - Knowledge - INFO - persist search terms embedding for frontend/API_CONTRACT.md
+2026-03-05 09:39:24,801 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/API_CONTRACT.md
+2026-03-05 09:39:24,984 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:25,164 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:25,378 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:25,565 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:25,767 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/systems.ts
+2026-03-05 09:39:26,016 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 100ms
+2026-03-05 09:39:26,446 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/api/endpoints/systems.ts, Duration: 270ms
+2026-03-05 09:39:26,602 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/api/endpoints/systems.ts
+2026-03-05 09:39:26,797 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/systems.ts
+2026-03-05 09:39:27,010 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:27,182 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:27,438 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:27,636 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:27,785 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/routes/+layout.ts
+2026-03-05 09:39:28,055 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2026-03-05 09:39:28,462 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/routes/+layout.ts, Duration: 233ms
+2026-03-05 09:39:28,644 - Knowledge - INFO - persist search terms embedding for frontend/src/routes/+layout.ts
+2026-03-05 09:39:28,856 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/routes/+layout.ts
+2026-03-05 09:39:29,026 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:29,213 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:29,478 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:29,646 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:29,847 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/README.md
+2026-03-05 09:39:30,107 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 105ms
+2026-03-05 09:39:30,519 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: README.md, Duration: 232ms
+2026-03-05 09:39:30,689 - Knowledge - INFO - persist search terms embedding for README.md
+2026-03-05 09:39:30,843 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/README.md
+2026-03-05 09:39:31,048 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:31,222 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:31,486 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:31,720 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:31,928 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/queries/evaluations.query.ts
+2026-03-05 09:39:32,227 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 105ms
+2026-03-05 09:39:32,680 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/queries/evaluations.query.ts, Duration: 243ms
+2026-03-05 09:39:32,861 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/queries/evaluations.query.ts
+2026-03-05 09:39:33,051 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/queries/evaluations.query.ts
+2026-03-05 09:39:33,258 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:33,421 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:33,659 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:33,867 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:34,049 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/stores/auth.store.ts
+2026-03-05 09:39:34,394 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 128ms
+2026-03-05 09:39:34,766 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/stores/auth.store.ts, Duration: 213ms
+2026-03-05 09:39:34,924 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/stores/auth.store.ts
+2026-03-05 09:39:35,145 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/stores/auth.store.ts
+2026-03-05 09:39:35,321 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:35,503 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:35,796 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:35,968 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:36,147 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/estate.ts
+2026-03-05 09:39:36,422 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 117ms
+2026-03-05 09:39:36,913 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/api/endpoints/estate.ts, Duration: 263ms
+2026-03-05 09:39:37,079 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/api/endpoints/estate.ts
+2026-03-05 09:39:37,257 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/endpoints/estate.ts
+2026-03-05 09:39:37,455 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:37,649 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:37,872 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:38,061 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:38,236 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/playwright.config.ts
+2026-03-05 09:39:38,547 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 100ms
+2026-03-05 09:39:41,331 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/playwright.config.ts, Duration: 2566ms
+2026-03-05 09:39:41,550 - Knowledge - INFO - persist search terms embedding for frontend/playwright.config.ts
+2026-03-05 09:39:41,708 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/playwright.config.ts
+2026-03-05 09:39:41,899 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:42,064 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:42,278 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:42,462 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:42,668 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/package.json
+2026-03-05 09:39:42,908 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2026-03-05 09:39:43,347 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/package.json, Duration: 267ms
+2026-03-05 09:39:43,487 - Knowledge - INFO - persist search terms embedding for frontend/package.json
+2026-03-05 09:39:43,686 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/package.json
+2026-03-05 09:39:43,841 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:43,993 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:44,374 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:44,551 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:44,752 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/fetcher.ts
+2026-03-05 09:39:45,053 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 100ms
+2026-03-05 09:39:45,519 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/src/lib/api/fetcher.ts, Duration: 301ms
+2026-03-05 09:39:45,707 - Knowledge - INFO - persist search terms embedding for frontend/src/lib/api/fetcher.ts
+2026-03-05 09:39:45,900 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/src/lib/api/fetcher.ts
+2026-03-05 09:39:46,102 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:46,272 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:46,584 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/vidar-frontend-v3-241585.git:kavia-master-9780
+2026-03-05 09:39:46,754 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f090e71edd0>
+2026-03-05 09:39:46,946 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/vitest.config.ts
+2026-03-05 09:39:47,215 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 107ms
+2026-03-05 09:39:47,799 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: frontend/vitest.config.ts, Duration: 356ms
+2026-03-05 09:39:48,030 - Knowledge - INFO - persist search terms embedding for frontend/vitest.config.ts
+2026-03-05 09:39:48,187 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/241585/b68270o/vidar-frontend-v3-241585/frontend/vitest.config.ts
+2026-03-05 09:39:48,366 - Knowledge - INFO - Loaded 30 files from persisted knowledge
+2026-03-05 09:39:48,524 - Knowledge - INFO - load persisted knowledge: end
+2026-03-05 09:39:48,694 - Knowledge - INFO - Redis support added with prefix knowledge:b68270o:
+2026-03-05 09:39:49,083 - Knowledge - INFO - Starting knowledge initialization for ID: DuHCn3-b68270o
+2026-03-05 09:39:49,276 - Knowledge - INFO - 🔍 Checking Redis for build_id: b68270o
+2026-03-05 09:39:49,430 - Knowledge - INFO - 🔍 Full session ID: DuHCn3-b68270o
+2026-03-05 09:39:49,591 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b68270o:
+2026-03-05 09:39:49,781 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2026-03-05 09:39:49,945 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2026-03-05 09:39:50,116 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b68270o
+2026-03-05 09:39:50,301 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2026-03-05 09:39:50,510 - Knowledge - INFO - ✅ Successfully loaded from Redis: 30 files
+2026-03-05 09:39:50,689 - Knowledge - INFO - ✅ Redis load complete: 30 files in 0.91s
+2026-03-05 09:39:50,893 - Knowledge - INFO - ⚡ Total Redis path: 0.91s (vs ~300s from disk)
+2026-03-05 09:39:51,052 - Knowledge - INFO - Saving knowledge to Redis...
+2026-03-05 09:39:51,291 - Knowledge - INFO - Knowledge saved to Redis successfully
